@@ -1,0 +1,138 @@
+<div class="row">
+  <div class="col-sm-9" align="center">
+
+    <div class="d-flex flex-row p-2" *ngFor="let j of [1, 2, 3]">
+      <div class="p-2">
+        <div class="round-content">
+          5 Tasks <br>
+          <small>Complexity Level: Hard</small>
+        </div>
+      </div>
+      <div class="p-2" align="center">
+        <div class="d-flex flex-row" *ngFor="let i of [1, 2, 3]">
+          <div class="p-1"><button class="btn btn-md">Marketing <i class="pl-2 fa fa-close"></i></button></div>
+          <div class="p-1"><button class="btn btn-md">Payment <i class="pl-2 fa fa-close"></i></button></div>
+          <div class="p-1"><button class="btn btn-md">Development <i class="pl-2 fa fa-close"></i></button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="container bund-links">
+
+      <ul class="nav nav-tabs justify-content-center border-bottom">
+        <li class="nav-item">
+          <a class="nav-link" role="tab" data-toggle="tab" data-target="#brief">Brief</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" role="tab" data-toggle="tab" data-target="#milestones">Milestones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" role="tab" data-toggle="tab" data-target="#files">Files</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" role="tab" data-toggle="tab" data-target="#agreement">Agreement</a>
+        </li>
+      </ul>
+      <!-- Tab panes -->
+      <div class="tab-content p-0">
+        <div class="tab-pane container" id="brief"></div>
+        <div class="tab-pane container active" id="milestones">
+
+          <div class="d-flex justify-content-end bg-light my-3">
+            <div class="mr-auto p-2">3 of 5 remaining</div>
+            <div class="p-2 text-primary">All Milestones</div>
+          </div>
+
+          <div class="row text-light">
+            <div class="col-sm-1">
+              <input type="checkbox" checked value="">
+            </div>
+            <div class="col-sm-10">
+              <del>Option 1</del>
+              <br> <span class="bg-danger text-white pl-1 pr-1"> Dec 20</span>
+            </div>
+          </div>
+
+          <div class="row text-light">
+            <div class="col-sm-1">
+              <input type="checkbox" checked value="">
+            </div>
+            <div class="col-sm-10">
+              <del>
+                Do some kind of lowest common denominator between the progress and discussion views.
+              </del>
+              <span class="bg-primary text-white pl-1 pr-1"> Dec 20</span>
+            </div>
+          </div>
+
+          <div class="border p-2 mt-4">
+            <div class="row text-light">
+              <div class="col-sm-1">
+                <input type="checkbox" value=""> <br> <i class="fa fa-hand-pointer-o"></i>
+              </div>
+              <div class="col-sm-10">
+            <span>
+              Make all the sites easier and faster to use if all subsections had that <br>
+            </span>
+                <span class="bg-primary text-white pl-1 pr-1"> Dec 20</span>
+
+                <div class="pt-2">
+                  Created this quick-quick. This is the direction i'm thinking
+                </div>
+
+                <div class="pt-2">
+                  Cost <br>
+                  <b class="font-weight-bold">$2,500.00</b>
+                </div>
+
+                <div class="pt-2">
+                  Deliverable <br>
+                  <b class="font-weight-bold">.psd file</b>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row mt-3 text-light">
+            <div class="col-sm-1">
+              <input type="checkbox" value="">
+            </div>
+            <div class="col-sm-10">
+          <span>
+            Send designs to the printer
+          </span>
+              <br>
+              <span class="bg-primary text-white pl-1 pr-1"> Dec 20</span>
+              <i class="text-primary pl-2 fa fa-lock"></i>
+            </div>
+          </div>
+
+        </div>
+        <div class="tab-pane container" id="files"></div>
+        <div class="tab-pane container" id="agreement"></div>
+      </div>
+
+      <div class="d-flex flex-column bg-light my-lg-5">
+        <div class="p-1 font-weight-bold">Teammates</div>
+        <div class="p-1">
+          <div class="d-flex flex-row">
+            <div class="p-1">
+              <img src="../../../../assets/images/dcsquare.png" class="img-fluid img-xs img-thumbnail" alt="images">
+            </div>
+            <div class="p-1">
+              <img src="../../../../assets/images/gotv-logo.png" class="img-fluid img-xs img-thumbnail" alt="images">
+            </div>
+            <div class="p-1">
+              <img src="../../../../assets/images/gotv-logo.png" class="img-fluid img-xs img-thumbnail"
+                   alt="images">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

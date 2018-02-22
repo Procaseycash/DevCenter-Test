@@ -1,6 +1,18 @@
 .bid-links {
-  padding: 10px;
+  padding: 10px 25px 10px 10px ;
 }
-.bid-links .nav .nav-item .active {
-  border-bottom: 2px solid #007bff;
+.bid-links a.nav-link.active {
+  border-bottom: 2px solid #007bff !important;
+}
+
+.nav-link {
+  cursor: pointer;
+  border: 0;
+  padding: 8px;
+}
+.text-light {
+  color: #aaa !important;
+}
+.tab-pane {
+  overflow-y: auto;
 }

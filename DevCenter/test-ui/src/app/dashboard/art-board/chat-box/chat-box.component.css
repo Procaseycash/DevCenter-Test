@@ -1,6 +1,6 @@
 .tip {
   background: #fff;
-  border: 1px solid #f2f2f2;
+  border: 1px solid #ccc;
   padding: 10px;
   border-radius: 8px;
   /*box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);*/
@@ -14,7 +14,7 @@
   position: absolute;
   display: inline-block;
   border-top: 3px solid transparent;
-  border-right: 7px solid #f2f2f2;
+  border-right: 7px solid #ccc;
   border-bottom: 7px solid transparent;
   left: -8px;
   top: 10px;
@@ -33,21 +33,21 @@
 
 .tip-1 {
   background: #fff;
-  border: 1px solid #f2f2f2;
+  border: 1px solid #ccc;
   padding: 10px;
   border-radius: 8px;
   /*box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);*/
   position: relative;
   width: 350px;
   margin-right: 5px;
-  color: #bbb;
+  color: #ccc;
 }
 
 .tip-1:before {
   position: absolute;
   display: inline-block;
   border-top: 3px solid transparent;
-  border-left: 7px solid #f2f2f2;
+  border-left: 7px solid #ccc;
   border-bottom: 7px solid transparent;
   right: -8px;
   top: 10px;
@@ -65,11 +65,12 @@
 }
 
 .chat-area {
-  border: 1px solid #f2f2f2;
+  border: 1px solid #ccc;
   width: 96%;
   margin: 25px auto auto 25px;
   max-height: 180px;
   border-radius: 5px;
+  position: relative;
 
 }
 .chat-area textarea {

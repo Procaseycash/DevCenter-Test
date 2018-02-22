@@ -11,6 +11,7 @@ import { DashboardComponent } from './dashboard.component';
 import {DashboardRoutingModule} from './dashboard-routing.module';
 import { ChatBoxComponent } from './art-board/chat-box/chat-box.component';
 import { BidLinksComponent } from './art-board/bid-links/bid-links.component';
+import {BundComponent} from './bundling/bund-links/bund.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { BidLinksComponent } from './art-board/bid-links/bid-links.component';
     DashboardComponent,
     ChatBoxComponent,
     BidLinksComponent,
+    BundComponent,
   ]
 })
 export class DashboardModule { }

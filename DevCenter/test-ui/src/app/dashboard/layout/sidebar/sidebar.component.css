@@ -33,14 +33,3 @@
   -webkit-border-radius: 5px;
 }
 
-.position-bottom {
-  font-size: 13px;
-  position: fixed;
-  padding-left: 5px;
-  bottom: 0;
-}
-
-.position-bottom .active {
-  background: none;
-  border: 1px solid #f2f2f2;
-}

@@ -1,0 +1,45 @@
+.bund-links {
+  padding: 10px 25px 10px 10px ;
+}
+.bund-links a.nav-link.active {
+  border-bottom: 2px solid #007bff !important;
+}
+
+.nav-link {
+  cursor: pointer;
+  border: 0;
+  padding: 8px;
+}
+.text-light {
+  color: #aaa !important;
+}
+.tab-pane {
+  overflow-y: auto;
+}
+
+.round-content {
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #cccccc;
+  background: #f2f2f2;
+  border-radius: 50% !important;
+  vertical-align: baseline;
+  text-align: center;
+
+  justify-content: center;
+}
+
+.btn-md {
+  width: auto;
+  padding: 5px;
+  background: rgba(0, 123, 125, 0.3);
+  color: #007bff;
+  font-size: 1em;
+  border-radius: 20px;
+}
+
+.v-middle {
+  justify-content: center;
+  vertical-align: middle;
+}
