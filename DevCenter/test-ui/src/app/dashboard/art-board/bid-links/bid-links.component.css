@@ -1,0 +1,6 @@
+.bid-links {
+  padding: 10px;
+}
+.bid-links .nav .nav-item .active {
+  border-bottom: 2px solid #007bff;
+}
