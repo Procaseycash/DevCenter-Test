@@ -5,6 +5,12 @@
   border-bottom: 2px solid #007bff !important;
 }
 
+.bund-center {
+  width: 80%;
+  padding:auto;
+  text-align: center;
+}
+
 .nav-link {
   cursor: pointer;
   border: 0;
@@ -18,28 +24,35 @@
 }
 
 .round-content {
-  padding: 20px;
+  /*padding: auto 20px 20px 20px;*/
   width: 150px;
   height: 150px;
-  border: 1px solid #cccccc;
-  background: #f2f2f2;
+  border: 2px solid #eef;
+  background: #eef;
   border-radius: 50% !important;
-  vertical-align: baseline;
+  vertical-align: middle;
   text-align: center;
-
   justify-content: center;
 }
 
 .btn-md {
-  width: auto;
-  padding: 5px;
+  width: 60px;
+  text-align: center;
+  padding: 3px;
   background: rgba(0, 123, 125, 0.3);
   color: #007bff;
-  font-size: 1em;
+  font-size: .8em;
+  font-weight: bold;
   border-radius: 20px;
 }
 
 .v-middle {
   justify-content: center;
   vertical-align: middle;
+}
+
+.btn-xl {
+  padding: 5px 10px 5px 10px;
+  font-size: 11px;
+  width: 100px;
 }

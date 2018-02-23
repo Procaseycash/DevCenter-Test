@@ -10,9 +10,7 @@
   border: 0;
   padding: 8px;
 }
-.text-light {
-  color: #aaa !important;
-}
+
 .tab-pane {
   overflow-y: auto;
 }
