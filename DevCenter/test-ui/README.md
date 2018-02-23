@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Running the UI Artboard and Bundling
+
+By default, the artboard is loaded as the the dashboard while navigating to dashboard/bundling will take you to the Bundling UI
+
+You can also click on floown under project in sidebar to see bundling ui
+
