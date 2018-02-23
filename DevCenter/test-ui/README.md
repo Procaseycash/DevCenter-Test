@@ -33,3 +33,13 @@ By default, the artboard is loaded as the the dashboard while navigating to dash
 
 You can also click on floown under project in sidebar to see bundling ui
 
+## Sample UI
+
+ArtBoard
+
+![Alt text](src/assets/images/artboard.png?raw=true "Home TEST API")
+
+Bundling
+
+
+![Alt text](src/assets/images/bundling.png?raw=true "Home TEST API")
