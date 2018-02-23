@@ -3,23 +3,26 @@ body {
   font-family: "sans-serif", "Calibri";
   background: #f2f2f2;
 }
+
 .content-left {
   margin-left: 250px !important;
   min-height: 100vh;
 }
 
 .content-margin {
-  margin: 30px  10px  10px  10px;
+  margin: 30px 10px 10px 10px;
 }
 
 .img-xs {
   width: 30px;
-  height: auto;
+  height: 30px;
 }
+
 .img-md {
-  width: 50px;
-  height: auto;
+  width: 40px;
+  height: 40px;
 }
+
 .sidebar {
   width: 240px;
   max-width: 240px;
@@ -67,6 +70,7 @@ body {
 .row, .col-sm-9, .col-sm-3 {
   padding: 0;
 }
+
 .col-sm-9 {
   border-right: 2px solid #f2f2f2;
 }
@@ -76,3 +80,14 @@ body {
   position: relative;
 }
 
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.thumbnail {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}

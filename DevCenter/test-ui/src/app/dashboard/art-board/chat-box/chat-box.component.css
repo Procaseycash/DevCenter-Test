@@ -20,6 +20,7 @@
   top: 10px;
   content: '';
 }
+
 .tip:after {
   position: absolute;
   display: inline-block;
@@ -53,6 +54,7 @@
   top: 10px;
   content: '';
 }
+
 .tip-1:after {
   position: absolute;
   display: inline-block;
@@ -73,6 +75,7 @@
   position: relative;
 
 }
+
 .chat-area textarea {
   border: 0;
   padding: 15px;
@@ -80,4 +83,19 @@
   max-width: 100%;
   min-height: 120px;
   max-height: 120px;
+}
+
+h5 {
+  width: 70%;
+  text-align: center;
+  border-bottom: 1px solid #ffcccc;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-size: 1em;
+}
+
+h5 span {
+  background: #fff;
+  padding: 0 10px;
+  color: #ff6666;
 }

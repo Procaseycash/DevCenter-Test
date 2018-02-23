@@ -2,13 +2,13 @@
   <div class="ml-auto" style="width: 96%">
     <div class="m-2 p-2" *ngFor="let i of [1, 2, 3]">
       <div align="center" *ngIf="i === 3" class="pb-3">
-        <span class="font-weight-bold text-uppercase text-danger"> New Messages</span>
+        <h5><span>New Messages</span></h5>
       </div>
       <div class="d-flex" [ngClass]="(i%2 === 0) ? 'flex-row-reverse' : 'flex-row'">
         <div>
-          <img *ngIf="i % 2 > 0" src="../../../../assets/images/dcsquare.png" class="img-fluid rounded-circle img-xs"
+          <img *ngIf="i % 2 > 0" src="../../../../assets/images/business.png" class="img-fluid rounded-circle img-xs"
                alt="images">
-          <img *ngIf="i === 2" src="../../../../assets/images/glo-logo.png" class="img-fluid rounded-circle img-xs"
+          <img *ngIf="i === 2" src="../../../../assets/images/consumer.png" class="img-fluid rounded-circle img-xs"
                alt="images">
         </div>
         <div [ngClass]="(i%2 === 0) ? 'tip-1' : 'tip'">
@@ -24,20 +24,20 @@
             Good works guys. I attached a couple of pics from my business trip.
             <div class="d-flex flex-row">
               <div class="p-2">
-                <img src="../../../../assets/images/dcsquare.png" class="img-fluid img-md img-thumbnail" alt="images">
+                <img src="../../../../assets/images/business.png" class="img-fluid img-md thumbnail" alt="images">
               </div>
               <div class="p-2">
-                <img src="../../../../assets/images/gotv-logo.png" class="img-fluid img-md img-thumbnail" alt="images">
+                <img src="../../../../assets/images/background.jpg" class="img-fluid img-md thumbnail" alt="images">
               </div>
               <div class="p-2">
-                <img src="../../../../assets/images/etisalat-logo.png" class="img-fluid img-md img-thumbnail"
+                <img src="../../../../assets/images/background1.jpeg" class="img-fluid img-md thumbnail"
                      alt="images">
               </div>
               <div class="p-2">
-                <img src="../../../../assets/images/glo-logo.png" class="img-fluid img-md img-thumbnail" alt="images">
+                <img src="../../../../assets/images/lekki-ikoyi.jpg" class="img-fluid img-md thumbnail" alt="images">
               </div>
               <div class="p-2">
-                <img src="../../../../assets/images/dstv-logo.png" class="img-fluid img-md img-thumbnail" alt="images">
+                <img src="../../../../assets/images/bg-1.jpg" class="img-fluid img-md thumbnail" alt="images">
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@
   </div>
 
   <div class="chat-area">
-    <textarea placeholder="send a message or attach a file"></textarea>
+    <textarea placeholder="send a message or attach a file" class="form-control"></textarea>
     <div class="d-flex justify-content-end">
       <div class="mr-auto p-2 my-2">
         <i class="p-1 text-primary fa fa-file"></i>
