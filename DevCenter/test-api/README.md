@@ -16,3 +16,10 @@ $ npm run serve
 ### Application runs at port 3000
 
 http://localhost:3000/
+
+## Sample GIPHY
+
+![Alt text](src/app/public/img/home.png?raw=true "Home TEST API")
+
+
+![Alt text](src/app/public/img/giphy-sample.png?raw=true "GIPHY SAMPLE API")
