@@ -1,12 +1,15 @@
+
 body {
   font-size: 10px;
-  font-family: "sans-serif", "Calibri";
+  font-family:  "Calibri", "sans-serif";
   background: #f2f2f2;
+  text-space: 5px;
 }
 
 .content-left {
   margin-left: 250px !important;
   min-height: 100vh;
+  position: relative;
 }
 
 .content-margin {
@@ -31,6 +34,7 @@ body {
   background: #fff;
   height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .sidebar-search {
@@ -74,10 +78,12 @@ body {
 .col-sm-9 {
   border-right: 2px solid #f2f2f2;
 }
-
+.card {
+  position: relative;
+}
 .card-body {
   padding: 0;
-  position: relative;
+  width: 100%;
 }
 
 .form-control:focus {
@@ -90,4 +96,53 @@ body {
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+}
+
+
+.chat-area {
+  border: 1px solid #ccc;
+  width: 96%;
+  margin: 25px auto auto 25px;
+  max-height: 180px;
+  border-radius: 5px;
+  position: relative;
+
+}
+
+.chat-area textarea {
+  border: 0;
+  padding: 15px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 120px;
+  max-height: 120px;
+}
+
+@media (max-width: 995px) {
+  .content-left {
+    margin-left: 110px !important;
+    min-height: 100vh;
+  }
+
+  .content-margin {
+    margin: 30px 10px 10px 10px;
+  }
+  .sidebar {
+    width: 100px;
+    font-size: 9px;
+    max-width: 100px;
+  }
+  .position-bottom {
+    font-size: 9px;
+  }
+
+  .my-btn button{
+    font-size: 8px !important;
+    padding: 3px;
+  }
+
+  .chat-area {
+    width: 80%;
+  }
+
 }
